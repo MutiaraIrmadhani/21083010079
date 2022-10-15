@@ -1,5 +1,13 @@
 #!/bin/bash
 
+printf "Operasi matematika apa yang kamu mau?\n"
+printf "penjumlahan?\n"
+printf "pengurangan?\n"
+printf "perkalian?\n"
+printf "pembagian?\n"
+
+read operasi
+printf "Operasi yang dipilih $operasi\n"
 echo "Masukkan nilai a="
 read a
 echo "masukkan nilai b="
